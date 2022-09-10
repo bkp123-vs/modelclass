@@ -1,19 +1,22 @@
+// ignore: unused_import
 import 'package:flutter/material.dart';
-
-// import 'screen/homepage.dart';
-import 'package:http_app/screen/homepage.dart';
-
-void main() {
+///import 'package:http_app/screen/homepage.dart';
+//import 'input.dart';
+import 'instaport.dart';
+ void main(List<String> args) {
   runApp(const MyApp());
 }
-
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
   @override
+  
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Homepage(),
-    );
+   return MaterialApp(
+   // home: HomePage(),
+    //home: InputPaage(),
+    home: IgHomePage(),
+
+   ); 
   }
 }
